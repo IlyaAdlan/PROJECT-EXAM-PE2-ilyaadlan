@@ -28,7 +28,7 @@ This is a student project for Noroff, built with React. It lets users register, 
 Uses the Noroff Holidaze API v2.
 
 ---
-This project is for educational purposes only.
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
