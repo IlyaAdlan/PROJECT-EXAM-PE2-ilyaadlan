@@ -26,5 +26,6 @@ This is a student project for Noroff, built with React. It lets users register, 
 
 ## API
 Uses the Noroff Holidaze API v2.
+https://docs.noroff.dev/docs/v2
 
 ---
