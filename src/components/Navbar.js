@@ -1,3 +1,4 @@
+// No changes needed in Navbar.js, it is already up to date.
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
