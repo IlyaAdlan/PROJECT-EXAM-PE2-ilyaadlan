@@ -1,0 +1,44 @@
+/* Premium Button */
+.btn-premium {
+  background: linear-gradient(90deg, #1976d2 0%, #2196f3 100%);
+  color: #fff !important;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn-premium:hover, .btn-premium:focus {
+  background: linear-gradient(90deg, #1565c0 0%, #1976d2 100%);
+  color: #fff !important;
+  box-shadow: 0 4px 16px rgba(33,150,243,0.18);
+}
+
+/* Premium Card */
+.card-premium {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(33,150,243,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
+  border: none;
+}
+
+/* Home background */
+.home-bg {
+  background: linear-gradient(120deg, #e3f2fd 0%, #fff 100%);
+}
+
+/* Misc */
+.btn-close {
+  outline: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .card-premium {
+    border-radius: 1rem;
+  }
+  .btn-premium {
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+}
