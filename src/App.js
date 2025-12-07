@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import AppNavbar from "./components/Navbar";
 import Venues from "./pages/Venues";
 import VenueDetails from "./pages/VenueDetails";
 import Search from "./pages/Search";
@@ -14,7 +15,8 @@ import ManageBookings from "./pages/ManageBookings";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      <AppNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/venues" element={<Venues />} />
