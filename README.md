@@ -1,4 +1,4 @@
-# Holidaze (Student Project)
+# Holidaze 
 
 This is a student project for Noroff, built with React. It lets users register, log in, view venues, book venues, and manage their own bookings and venues.
 
@@ -27,3 +27,4 @@ This is a student project for Noroff, built with React. It lets users register, 
 ## API
 Uses the Noroff Holidaze API v2.
 
+---
