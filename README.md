@@ -1,43 +1,41 @@
-# Holidaze Accommodation Booking App
+# Holidaze (Student Project)
 
-A simple React app for booking and managing venues, built for the Noroff Holidaze API.
+This is a student project for Noroff, built with React. It lets users register, log in, view venues, book venues, and manage their own bookings and venues.
 
 ## Features
 - Register and log in
-- View, book, and manage venues
+- View and search venues
+- Book venues
 - Manage your bookings
-- Edit venue and booking details
-- Filter venues and bookings
-- User profile management
-- Logout and session handling
+- Edit your profile
 
-## Tech Stack
+## How to Run
+1. Install dependencies:
+	```bash
+	npm install
+	```
+2. Start the app:
+	```bash
+	npm start
+	```
+
+## Tech Used
 - React
-- Bootstrap (react-bootstrap)
+- Bootstrap
 - React Router DOM
 
-## Usage
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the app:
-   ```bash
-   npm start
-   ```
-3. Register or log in to use all features.
-
-## Folder Structure
-- `src/pages/` — Main app pages
-- `src/components/` — Navbar and Footer
-- `src/App.js` — App entry point
-
 ## API
-Uses [Noroff Holidaze API v2](https://v2.api.noroff.dev/holidaze).
-
-## Notes
-- Make sure to register and log in to access management features.
-- For any issues, check your browser console for errors.
+Uses the Noroff Holidaze API v2.
 
 ---
-Simple. Modern. Ready to book!
+This project is for educational purposes only.
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
