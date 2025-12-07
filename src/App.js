@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AppNavbar from "./components/Navbar";
-import AppNavbar from "./components/Navbar";
 import Venues from "./pages/Venues";
 import VenueDetails from "./pages/VenueDetails";
 import Search from "./pages/Search";
